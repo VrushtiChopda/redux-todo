@@ -1,10 +1,11 @@
-import TodoList from '../components/TodoList';
+import AddTodo from '../components/AddTodo';
 import './App.css';
 
 function App() {
   return (
     <>
-      <TodoList />
+      <h1 className='text-center'>To Do</h1>
+      <AddTodo />
     </>
   );
 }
